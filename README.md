@@ -1,12 +1,13 @@
-# spell-checking-and-correction
+# Spell Checking and Correction
 
-## Todo list:
+### Todo list:
 
-1. Dataset creation and cleaning  
+- [ ] Dataset creation and cleaning  
   - TDK Güncel Türkçe Sözlük
-  - Zemberek
-2. Data Augmentation (weighted minimum distance, substution matrix ...)
+  - Using data from big corpus (OSCAR)
+  - ZemberekNLP data
+- [ ] Data Augmentation script
   - Can we use data from [10fastfingers.com](https://10fastfingers.com/typing-test/turkish) ?
-3. Prepare train-val-test splits
-4. Evaluation on [hunspell-tr](https://github.com/vdemir/hunspell-tr)
-5. Research on creating better .aff/.dic training
+- [ ] Prepare train-val-test splits
+- [ ] Evaluate on [hunspell-tr](https://github.com/vdemir/hunspell-tr)
+- [ ] Research on creating better .aff/.dic training
