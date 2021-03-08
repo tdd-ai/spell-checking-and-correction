@@ -66,14 +66,20 @@ class DataProcessing():
     def corrupt_word(self, word, n = 5 ):
         corrupted_words = []
         for i in range(n):
-            method = random.randint(1,3)
+
+            if len(word) > 1:
+                method = random.randint(1,3)
+            else:
+                method = random.randint(1,2)
             if method == 1: #insert char
                 corrupted_word = self.insert_char( word )
             elif method == 2: # delete char
-                corrupted_word = self.delete_char( word )
-            else:
                 corrupted_word = self.substitude_char( word )
+            else:
+                corrupted_word = self.delete_char( word )
+
             corrupted_words.append( corrupted_word )
+
         return corrupted_words
 
     def corrupt_words( self, words , n = 5 ):
