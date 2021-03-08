@@ -22,3 +22,4 @@ The following table shows the performance of turkish spell checkers on [test_cor
 | [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                   |   |
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                      |   |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                              |   |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                           |   |
