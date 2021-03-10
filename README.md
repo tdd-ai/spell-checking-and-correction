@@ -16,10 +16,11 @@
 The following table shows the performance of turkish spell checkers on [test_corrupted.txt](test_corrupted.txt) dataset.
 | SpellChecker      | Accuracy  |
 | ----------------- |  --------  |
-| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py) |   |
-| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                           |   |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                    |   |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                   |   |
-| [zemberek-python](https://github.com/Loodos/zemberek-python)                      |   |
-| [velhasil](https://github.com/MiniVelhasil/velhasil)                              |   |
-| [tr-spell](https://code.google.com/archive/p/tr-spell/)                           |   |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       |   |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |   |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          |   |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         |   |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |   |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    |   |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 |   |
+| [Turkish-Spell-Checker](https://github.com/tarekwelaya/Turkish-Spell-Checker)                           |   |
