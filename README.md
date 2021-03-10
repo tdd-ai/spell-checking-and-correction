@@ -7,7 +7,7 @@
   - Using data from big corpus (OSCAR)
   - ZemberekNLP data
 - [x] Data Augmentation script
-- [ ] Prepare test sets
+- [x] Prepare test set
 - [ ] Evaluate on existing spell checkers
 - [ ] Research on creating better .aff/.dic training
 
