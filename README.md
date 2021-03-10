@@ -17,7 +17,7 @@
 
 ### Turkish Spell Checker List
 
-The following table shows the performance of Turkish spell checkers on [official_test.csv](data/official_test.csv) dataset.
+The following table shows the performance of Turkish spell checkers on [official_test.csv](evaluation/data/official_test.csv) dataset.
 
 
 | Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
