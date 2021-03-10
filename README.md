@@ -7,8 +7,8 @@
   - Using data from big corpus (OSCAR)
   - ZemberekNLP data
 - [x] Data Augmentation script
-- [ ] Prepare train-val-test splits
-- [ ] Evaluate on [hunspell-tr](https://github.com/vdemir/hunspell-tr)
+- [ ] Prepare test sets
+- [ ] Evaluate on existing spell checkers
 - [ ] Research on creating better .aff/.dic training
 
 
