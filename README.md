@@ -6,21 +6,27 @@
   - TDK Güncel Türkçe Sözlük
   - Using data from big corpus (OSCAR)
   - ZemberekNLP data
-- [ ] Data Augmentation script
-  - Can we use data from [10fastfingers.com](https://10fastfingers.com/typing-test/turkish) ?
+- [x] Data Augmentation script
 - [ ] Prepare train-val-test splits
 - [ ] Evaluate on [hunspell-tr](https://github.com/vdemir/hunspell-tr)
 - [ ] Research on creating better .aff/.dic training
+
+
+### Notes:
+- No reply for the developers of [10fastfingers.com](https://10fastfingers.com/typing-test/turkish) ?
+
 ### Turkish Spell Checker List
 
-The following table shows the performance of turkish spell checkers on [test_corrupted.txt](test_corrupted.txt) dataset.
-| SpellChecker      | Accuracy  |
-| ----------------- |  --------  |
-| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       |   |
-| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |   |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          |   |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         |   |
-| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |   |
-| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    |   |
-| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 |   |
-| [Turkish-Spell-Checker](https://github.com/tarekwelaya/Turkish-Spell-Checker)                           |   |
+The following table shows the performance of Turkish spell checkers on [official_test.csv](data/official_test.csv) dataset.
+
+
+| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
+| --- | --- | --- | --- | --- | --- |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       |   |   |   |   |   |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |   |   |   |   |   |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 | 632.92 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         |   |   |   |   |   |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |   |   |   |   |   |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    |   |   |   |   |   |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 |   |   |   |   |   |
+| [Turkish-Spell-Checker](https://github.com/tarekwelaya/Turkish-Spell-Checker)                           |   |   |   |   |   |  
