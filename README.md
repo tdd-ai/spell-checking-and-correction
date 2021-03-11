@@ -23,7 +23,7 @@ The following table shows the performance of Turkish spell checkers on [official
 | Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
 | --- | --- | --- | --- | --- | --- |
 | [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       |   |   |   |   |   |
-| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |   |   |   |   |   |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |  99.06 |  94.05 | 96.49  | 99.24  | 397.65  |
 | [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 | 632.92 |
 | [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         |   |   |   |   |   |
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |   |   |   |   |   |
