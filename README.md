@@ -26,7 +26,7 @@ The following table shows the performance of Turkish spell checkers on [official
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 |  99.06 |  94.05 | 96.49  | 99.24  | 397.65  |
 | [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 | 632.92 |
 | [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         |   |   |   |   |   |
-| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |   |   |   |   |   |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |  91.07 | 94.42  |  92.71 | 91.61 |  18.70 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    |   |   |   |   |   |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 |   |   |   |   |   |
 | [Turkish-Spell-Checker](https://github.com/tarekwelaya/Turkish-Spell-Checker)                           |   |   |   |   |   |  
