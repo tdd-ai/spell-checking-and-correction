@@ -181,8 +181,7 @@ class DataProcessing():
 
 '''
 Usage :
-$python --input-file <INPUT_FILE> --out-file <OUTPUT_FILE>
-$python --input-file <INPUT_FILE> --out-file <OUTPUT_FILE> --foreign-file <FOREIGN_WORDS_FILE>
+$python --config-file <CONFIG_FILE>
 '''
 
 if __name__ == "__main__":
