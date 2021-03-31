@@ -6,6 +6,7 @@ import numpy as np
 import sys
 import argparse
 from tqdm import tqdm
+import json
 
 class DataProcessing():
     
@@ -120,11 +121,20 @@ class DataProcessing():
         f = open( filename, "r")
         lines = f.readlines()
         lines = [l.rstrip() for l in lines]
-        lines = [l for l in lines if l.isalpha() and len(l) > 3 ]
-        self.foreign_words = lines
+
+        self.foreign_words = []
+        non_turkish = ['q','w','x']
+
+        for word in lines:
+            if word.isalpha() and ( len(word) > 4 or any( nt in word for nt in non_turkish )  ):
+                self.foreign_words.append( word )
+
         
     def random_foreign_word( self ):
-        return random.choice( self.foreign_words )    
+        fword =  random.choice( self.foreign_words )    
+        fword = [c for c in fword]
+        fword[0] = fword[0].upper()
+        return ''.join(fword)        
 
     def random_corruption_method( self, word ):
         methods = self.corruption_methods
@@ -178,22 +188,51 @@ $python --input-file <INPUT_FILE> --out-file <OUTPUT_FILE> --foreign-file <FOREI
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
+    
+    '''
     parser.add_argument("--input-file", type=str, required=True)
     parser.add_argument("--out-file", type=str, required=True)
     parser.add_argument("--foreign-file", type=str )
+    '''
+    
+    parser.add_argument("--config-file", type=str, required=True)
     args = parser.parse_args()
     
-    word_distirbution = {"random":0.05,"foreign_random":0.10,"corrupted":0.5,"non-corrupted":0.35}
 
+    with open( args.config_file ) as json_data_file:
+        data = json.load(json_data_file)
+
+    #print(data)
+    word_distirbution = data["out_dist"]
+
+    
+    #word_distirbution = {"random":0.05,"foreign_random":0.10,"corrupted":0.5,"non-corrupted":0.35}
+
+    input_filenames = data["input_files"]
+    input_dist = data["input_dist"]
+
+    input_num = ( data["out_dist"]["corrupted"] + data["out_dist"]["non_corrupted"] )*data["out_num"]
+    
+    words = []
+    for i,name in enumerate(input_filenames):
+        f = open(name,'r') 
+        lines = f.readlines()
+        w = [word.rstrip() for word in lines ]
+        w = random.choices( w , k = int(input_dist[i]*input_num) )
+        words.extend( w )
+
+    '''
     f = open(args.input_file, 'r')
     lines = f.readlines()
     words = [word.rstrip() for word in lines ]
-
+    '''
+    
     processor = DataProcessing()
-    out_size = 10000
+    out_size = data["out_num"]
 
-    if args.foreign_file is not None:
-        processor.import_foreign_words(args.foreign_file)
+    foreign_filename = data["foreign_file"]
+    if foreign_filename is not None and foreign_filename != "":
+        processor.import_foreign_words( foreign_filename )
 
     #Corrupt given input list
     #corrupted_words = processor.corrupt_words( words )
@@ -203,7 +242,7 @@ if __name__ == "__main__":
     corrupted_ids = np.random.choice(ids, int( out_size*word_distirbution['corrupted'] ),replace=False)
 
     #non-corrupted words
-    non_corrupted_ids = np.random.choice(ids, int( out_size*word_distirbution['non-corrupted'] ),replace=False)
+    non_corrupted_ids = np.random.choice(ids, int( out_size*word_distirbution['non_corrupted'] ),replace=False)
 
     print("prepearing corrupted words...")
     corrupted_words = [ processor.corrupt_word( words[i] ) for i in tqdm(corrupted_ids) ]
@@ -216,13 +255,13 @@ if __name__ == "__main__":
 
     #Produce random foreign words
     random_foreign_words = []
-    if args.foreign_file is not None:
+    if foreign_filename is not None and foreign_filename != "":
         print("prepearing foreign words")
         for _ in tqdm( range( int( out_size*word_distirbution['foreign_random'] ) ) ):
             random_foreign_words.append( processor.random_foreign_word() )
 
     #Write created words to file
-    out_file = open( args.out_file , "w")
+    out_file = open( data["out_file"] , "w")
     out_file.write( 'gold,input\n' )
 
     for i,id in enumerate(corrupted_ids):
@@ -238,5 +277,4 @@ if __name__ == "__main__":
         out_file.write( word + ',' + '\n' )
     
     out_file.close()
-    
     
