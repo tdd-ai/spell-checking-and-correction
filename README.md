@@ -29,3 +29,18 @@ The following table shows the performance of Turkish spell checkers on [official
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            |  91.07 | 94.42  |  92.71 | 91.61 |  18.70 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77  |  94.19 |  95.46 |  93.92 | 0.48  |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 |  3.24 |
+
+
+The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
+
+
+| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
+| --- | --- | --- | --- | --- | --- |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | | | | | |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 | 681.2 |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | | | | | |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | | | | | |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | | | | | |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | | | | | |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | | | | | |
+
