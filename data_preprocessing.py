@@ -270,10 +270,10 @@ if __name__ == "__main__":
         out_file.write( words[id] + ',' + words[id] +  '\n' )
 
     for word in random_foreign_words:
-        out_file.write( word + ',' + '\n' )
+        out_file.write( ',' + word + '\n' )
 
     for word in random_words:
-        out_file.write( word + ',' + '\n' )
+        out_file.write( ',' + word + '\n' )
     
     out_file.close()
     
