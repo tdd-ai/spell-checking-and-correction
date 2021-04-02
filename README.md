@@ -36,11 +36,11 @@ The following table shows the performance of Turkish spell checkers on [official
 
 | Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
 | --- | --- | --- | --- | --- | --- |
-| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | | | | | |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 96.54 | 63.91 | 76.91 | 36.09 | 0.64 |
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 | 681.2 |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | | | | | |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | | | | | |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 | 9.87 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 95.38 | 97.27 | 96.32 | 48.93 | 4.75 |
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | | | | | |
-| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | | | | | |
-| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | | | | | |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 | 0.39 |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 | 3.79 |
 
