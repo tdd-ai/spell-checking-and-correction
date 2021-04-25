@@ -21,7 +21,7 @@ The following table shows the performance of Turkish spell checkers on [official
 
 
 | Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 94.69 | 39.09 | 55.34 | 60.91 |
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 99.06 | 94.05 | 96.49 | 99.24 |
 | [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 |
@@ -34,8 +34,8 @@ The following table shows the performance of Turkish spell checkers on [official
 The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
 
 
-| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
-| --- | --- | --- | --- | --- | --- |
+| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy |
+| --- | --- | --- | --- | --- |
 | [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 96.54 | 63.91 | 76.91 | 36.09 |
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 |
 | [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 |
