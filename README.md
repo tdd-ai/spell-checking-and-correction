@@ -20,15 +20,15 @@
 The following table shows the performance of Turkish spell checkers on [official_test.csv](evaluation/data/official_test.csv) dataset.
 
 
-| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
+| Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy |
 | --- | --- | --- | --- | --- | --- |
-| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 94.69 | 39.09 | 55.34 | 60.91 | 1.06 |
-| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 99.06 | 94.05 | 96.49 | 99.24 | 397.65 |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 | 632.92 |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 92.73 | 96.51 | 94.58 | 79.68 | 4.50 |
-| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 91.07 | 94.42 | 92.71 | 91.61 | 18.70 |
-| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77 | 94.19 | 95.46 | 93.92 | 0.48 |
-| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 | 3.24 |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 94.69 | 39.09 | 55.34 | 60.91 |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 99.06 | 94.05 | 96.49 | 99.24 |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 92.73 | 96.51 | 94.58 | 79.68 |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 91.07 | 94.42 | 92.71 | 91.61 |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77 | 94.19 | 95.46 | 93.92 |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 |
 
 
 The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
@@ -36,11 +36,11 @@ The following table shows the performance of Turkish spell checkers on [official
 
 | Spell Checker | Error detection Precision | Error detection Recall | Error detection F1-Score | Correction accuracy | Speed (words per sec) |
 | --- | --- | --- | --- | --- | --- |
-| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 96.54 | 63.91 | 76.91 | 36.09 | 0.64 |
-| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 | 681.2 |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 | 9.87 |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 95.38 | 97.27 | 96.32 | 48.93 | 4.75 |
-| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 96.62 | 96.05 | 96.33 | 53.84 | 25.70 |
-| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 | 0.39 |
-| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 | 3.79 |
+| [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 96.54 | 63.91 | 76.91 | 36.09 |
+| [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 |
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 95.38 | 97.27 | 96.32 | 48.93 |
+| [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 96.62 | 96.05 | 96.33 | 53.84 |
+| [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 |
+| [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 |
 
