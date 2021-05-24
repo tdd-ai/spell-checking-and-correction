@@ -29,7 +29,7 @@ The following table shows the performance of Turkish spell checkers on [official
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 91.07 | 94.42 | 92.71 | 91.61 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77 | 94.19 | 95.46 | 93.92 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 |
-| [LibraOffice](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                            | 92.73 | 96.51 | 94.58 | 79.68 |
+| [LibreOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 92.73 | 96.51 | 94.58 | 79.68 |
 | [Ours]()                                                                                                | 48.63 | 99.61 | 65.35 | 0.56 |
 
 
@@ -45,5 +45,5 @@ The following table shows the performance of Turkish spell checkers on [official
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 96.62 | 96.05 | 96.33 | 53.84 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 |
-| [LibraOffice](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                            | 95.38 | 97.27 | 96.32 | 48.93 | 
+| [LibreOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 95.38 | 97.27 | 96.32 | 48.93 | 
 | [Ours]()                                                                                                | 71.31 | 98.40 | 82.69 | 2.40 |
