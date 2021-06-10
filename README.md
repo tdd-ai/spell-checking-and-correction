@@ -30,8 +30,8 @@ The following table shows the performance of Turkish spell checkers on [official
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77 | 94.19 | 95.46 | 93.92 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 |
 | [LibraOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 92.73 | 96.51 | 94.58 | 79.68 |
-| [Ours_v1]()                                                                                             | 48.75 | 99.55 | 65.45 | 1.96  |
-| [Ours_v2]()                                                                                             | 48.80 | 99.55 | 65.50 | 2.50  |
+| [Ours_v1]()                                                                                             | 96.63 | 94.21 | 95.40 | 96.44  |
+
 
 The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
 
@@ -46,5 +46,5 @@ The following table shows the performance of Turkish spell checkers on [official
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 |
 | [LibraOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 95.38 | 97.27 | 96.32 | 48.93 | 
-| [Ours_v1]()                                                                                             | 72.48 | 98.28 | 83.43 | 8.67  |
-| [Ours_v2]()                                                                                             | 73.10 | 98.48 | 83.92 | 10.49 |
+| [Ours_v1]()                                                                                             | 97.70 | 94.69 | 96.17 | 55.80  |
+
