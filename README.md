@@ -33,6 +33,7 @@ The following table shows the performance of Turkish spell checkers on [official
 | [Ours_v1]()                                                                                             | 96.63 | 94.21 | 95.40 | 96.44  |
 | [Ours_v2]()                                                                                             | 97.23 | 94.38 | 95.78 | 97.15  |
 | [Ours_v3]()                                                                                             | 94.32 | 94.71 | 94.51 | 92.06  |
+| [Ours_corrected_v4]()                                                                                   | 89.30 | 95.29 | 92.20 | 89.64  |
 
 
 The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
@@ -51,3 +52,4 @@ The following table shows the performance of Turkish spell checkers on [official
 | [Ours_v1]()                                                                                             | 97.70 | 94.69 | 96.17 | 55.80  |
 | [Ours_v2]()                                                                                             | 97.85 | 95.25 | 96.53 | 56.38  |
 | [Ours_v3]()                                                                                             | 96.74 | 95.26 | 96.00 | 53.05  |
+| [Ours_corrected_v4]()                                                                                   | 95.16 | 95.56 | 95.36 | 52.88  |
