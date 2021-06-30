@@ -2,7 +2,7 @@
 
 ### Todo list:
 
-- [ ] Dataset creation and cleaning  
+- [x] Dataset creation and cleaning  
   - TDK Güncel Türkçe Sözlük
   - Using data from big corpus (OSCAR)
   - ZemberekNLP data
