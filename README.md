@@ -15,7 +15,9 @@
 ### Notes:
 - No reply for the developers of [10fastfingers.com](https://10fastfingers.com/typing-test/turkish) ?
 
-### Turkish Spell Checker List
+### Turkish Spell Checker Benchmark
+
+We artificially created two benchmarks for Turkish spell checking and correction task.
 
 The following table shows the performance of Turkish spell checkers on [official_test.csv](evaluation/data/official_test.csv) dataset.
 
@@ -24,17 +26,13 @@ The following table shows the performance of Turkish spell checkers on [official
 | --- | --- | --- | --- | --- |
 | [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 94.69 | 39.09 | 55.34 | 60.91 |
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 99.06 | 94.05 | 96.49 | 99.24 |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 92.73 | 96.51 | 94.58 | 79.68 |
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 91.07 | 94.42 | 92.71 | 91.61 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.77 | 94.19 | 95.46 | 93.92 |
+| Hunspell-based |||||
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 81.23 | 97.16 | 88.48 | 80.11 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 92.73 | 96.51 | 94.58 | 79.68 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 87.42 | 96.96 | 91.94 | 87.37 |
-| [LibraOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 92.73 | 96.51 | 94.58 | 79.68 |
-| [Ours_v1]()                                                                                             | 96.63 | 94.21 | 95.40 | 96.44  |
-| [Ours_v2]()                                                                                             | 97.23 | 94.38 | 95.78 | 97.15  |
-| [Ours_v3]()                                                                                             | 94.32 | 94.71 | 94.51 | 92.06  |
-| [Ours_v4]()                                                                                             | 95.13 | 94.83 | 94.98 | 95.02  |
-| [Ours_corrected_v4]()                                                                                   | 89.30 | 95.29 | 92.20 | 89.64  |
+| [TDD hunspell-tr](https://github.com/tdd-ai/hunspell-tr) (ours)                                         | 97.23 | 94.38 | 95.78 | 97.15 |
 
 
 The following table shows the performance of Turkish spell checkers on [official_test_v2.csv](evaluation/data/official_test_v2.csv) dataset.
@@ -44,14 +42,11 @@ The following table shows the performance of Turkish spell checkers on [official
 | --- | --- | --- | --- | --- |
 | [TurkishSpellChecker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)                       | 96.54 | 63.91 | 76.91 | 36.09 |
 | [zemberek-nlp](https://github.com/ahmetaa/zemberek-nlp)                                                 | 97.83 | 87.75 | 92.52 | 63.52 |
-| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 |
-| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 95.38 | 97.27 | 96.32 | 48.93 |
 | [zemberek-python](https://github.com/Loodos/zemberek-python)                                            | 96.62 | 96.05 | 96.33 | 53.84 |
 | [velhasil](https://github.com/MiniVelhasil/velhasil)                                                    | 96.74 | 94.73 | 95.73 | 52.99 |
+| Hunspell-based |||||
+| [hunspell-tr](https://github.com/vdemir/hunspell-tr)  (vdemir)                                          | 90.96 | 97.47 | 94.10 | 48.41 |
+| [hunspell-tr](https://github.com/hrzafer/hunspell-tr) (hrzafer)                                         | 95.38 | 97.27 | 96.32 | 48.93 |
 | [tr-spell](https://code.google.com/archive/p/tr-spell/)                                                 | 93.66 | 97.24 | 95.42 | 54.65 |
-| [LibraOffice (hr-zafer)](https://github.com/LibreOffice/dictionaries/tree/master/tr_TR)                 | 95.38 | 97.27 | 96.32 | 48.93 | 
-| [Ours_v1]()                                                                                             | 97.70 | 94.69 | 96.17 | 55.80  |
-| [Ours_v2]()                                                                                             | 97.85 | 95.25 | 96.53 | 56.38  |
-| [Ours_v3]()                                                                                             | 96.74 | 95.26 | 96.00 | 53.05  |
-| [Ours_v4]()                                                                                             | 96.98 | 95.68 | 96.33 | 54.92  |
-| [Ours_corrected_v4]()                                                                                   | 95.16 | 95.56 | 95.36 | 52.88  |
+| [TDD hunspell-tr](https://github.com/tdd-ai/hunspell-tr) (ours)                                         | 97.85 | 95.25 | 96.53 | 56.38 |
+
