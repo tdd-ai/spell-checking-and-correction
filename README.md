@@ -9,7 +9,7 @@
 - [x] Data Augmentation script
 - [x] Prepare test set
 - [x] Evaluate on existing spell checkers
-- [ ] Research on creating better .aff/.dic training
+- [x] Research on creating better .aff/.dic training
 
 
 ### Notes:
